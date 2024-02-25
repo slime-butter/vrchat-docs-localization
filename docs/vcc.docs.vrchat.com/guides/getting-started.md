@@ -1,4 +1,8 @@
-# 入门
+# 准备开始
+
+::: warning 🧑‍💻原文过时警告
+原文内容落后于当前版本应用状态，我们会将当前版本应用状态以引用形式编写进本文档中，同时保留原文内容。
+:::
 
 如果您是从零开始，以下是您需要做的：
 
@@ -14,15 +18,14 @@
 创作者助手会在启动时检查 Unity 是否已安装。如果需要，它会提供一个按钮，方便您安装 Unity Hub 和 Unity 编辑器。按照创作者助手内的安装说明，您将获得最新版本的 Unity Hub 和当前兼容 VRChat SDK 的 Unity 版本。
 
 要安装 Unity Hub，请[按照这些步骤操作](https://learn.unity.com/tutorial/install-the-unity-hub-and-editor)。
-::: info
 
+::: info
 ### Unity 安装问题
 
 - 安装 Unity 后，请确保[激活您的 Unity 许可证](https://support.unity.com/hc/en-us/articles/211438683-How-do-I-activate-my-license-)。
 - Unity 和 Unity Hub 通常需要管理员权限进行安装。当安装程序请求更改您的系统时，请点击 "是"。在极少数情况下，您可能需要[以管理员身份运行安装程序](https://www.windowscentral.com/how-run-app-administrator-windows-10)。
 - 如果您的 Unity Hub 安装意外失败，您可能需要查看安装日志文件。您可以在 `%UserProfile%\AppData\Roaming\UnityHub\logs\info-log.json` 中找到它。
 - Unity Hub 可能会自动提示您安装与 VRChat 不兼容的 Unity 版本。您可以安全地跳过这些提示。
-
 :::
 
 创作者助手仅在 Windows 10 上得到完全支持（Windows 11 可能可以工作，但尚未完全测试）。[在 Mac 和 Linux 上的 CLI 有一些功能也被支持](/vcc.docs.vrchat.com/vpm/cli#mac-and-linux-support)。
@@ -40,6 +43,16 @@
 * Avatar - 创建一个包含 Avatar 3.0 SDK 的新项目，用于创建 VRChat Avatar。
 * World - 创建一个包含 World 3.0 SDK 和 Udon 的新项目，以及 ClientSim，用于直接在编辑器中测试您的世界。
 * UdonSharp - 创建一个包含 World 模板中所有内容 PLUS UdonSharp 的新项目，用于以类似 C# 的语法编写 Udon 脚本。
+
+::: warning 🧑‍💻译者修正
+新版创作者助手支持的模板种类如下：
+- Unity 2022 World Project 是为制作 Unity 2022 世界提供的模板。
+- Unity 2022 Avatar Project 是为制作 Unity 2022 虚拟形象提供的模板。
+- Unity 2019 World Project 是为制作 Unity 2019 世界提供的模板。
+- Unity 2019 Avatar Project 是为制作 Unity 2019 虚拟形象提供的模板。
+
+UdonSharp 模板在[创作者助手2.1.3更新](https://vcc.docs.vrchat.com/news/release-2.1.3)中被移除。
+:::
 
 ## 迁移现有项目
 
